@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+  <defs></defs>
+  <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+  <g transform="matrix(1 0 0 1 540 540)" id="02f5dc46-e7c6-4dca-85b4-3b332d603a05">
+    <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke" x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+  </g>
+  <g transform="matrix(1 0 0 1 540 540)" id="59a6426d-d271-44c4-a30b-8ff264fcd11b"></g>
+  <g transform="matrix(30.34 0 0 30.34 464.67 873)">
+    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(115,208,218); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-16, -27)" d="M 24 30 C 24 30.55 23.55 31 23 31 L 9 31 C 8.45 31 8 30.55 8 30 C 8 29.45 8.45 29 9 29 L 11.15 29 L 12.01 23.84 C 12.09 23.35 12.51 23 13 23 L 19 23 C 19.49 23 19.91 23.35 19.99 23.84 L 20.84 29 L 23 29 C 23.55 29 24 29.45 24 30 z" stroke-linecap="round" />
+  </g>
+  <g transform="matrix(36.29 0 0 30.34 471.27 449.71)">
+    <path style="stroke: rgb(115,208,218); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(20,98,193); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-16, -13)" d="M 28 4 L 28 22 C 28 23.65 26.65 25 25 25 L 7 25 C 5.35 25 4 23.65 4 22 L 4 4 C 4 2.35 5.35 1 7 1 L 25 1 C 26.65 1 28 2.35 28 4 z" stroke-linecap="round" />
+  </g>
+  <g transform="matrix(45.71 0 0 37.82 466.3 426.98)">
+    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(136,240,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-16.03, -12)" d="M 24.03 6 L 24.03 18 C 24.03 18.55 23.580000000000002 19 23.03 19 L 9.030000000000001 19 C 8.48 19 8.030000000000001 18.55 8.030000000000001 18 L 8.030000000000001 6 C 8.030000000000001 5.45 8.48 5 9.030000000000001 5 L 23.03 5 C 23.58 5 24.03 5.45 24.03 6 z" stroke-linecap="round" />
+  </g>
+  <g transform="matrix(2.57 0 0 2.81 492.59 442.02)" style="" id="cb5457b1-c95d-45ae-81cd-d052279e4282">
+    <text xml:space="preserve" font-family="Lato" font-size="138" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(20,98,193); fill-rule: nonzero; opacity: 1; white-space: pre;">
+      <tspan x="-131.87" y="43.35">S</tspan>
+      <tspan x="-52.36" y="43.35">A</tspan>
+      <tspan x="39.82" y="43.35">T</tspan>
+    </text>
+  </g>
+  <g transform="matrix(0 0 0 0 0 0)">
+    <g style=""></g>
+  </g>
+  <g transform="matrix(0 0 0 0 0 0)">
+    <g style=""></g>
+  </g>
+  <g transform="matrix(0 2.39 -1.62 0 1027.79 484.75)" id="f9f2297e-c462-4d5d-b5e2-5e250ecee3d7">
+    <polygon style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" points="-37.43,32.41 0,-32.41 37.43,32.41 " />
+  </g>
+</svg>

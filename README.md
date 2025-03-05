@@ -5,29 +5,32 @@
 ![](/screenshots/1.png)
 
 ## Instructions
-Each number represents an index of the variables (i.e. x_1, ..., x_n). A variable can be either true or false (1 or 0, respectively). Negative numbers mean that the NOT operator is used. Combining negative and positive variables are referred to as literals.
-Each line is a clause, which joins all the literals by a logical OR. The clauses are all joined by a logical AND.
-The goal is to find whether or not some arrangement of the variables will evaluate the expression to true (satisfiable or SAT) or false (unsatisfiable or UNSAT).
+Each number represents a variable index (e.g., x_1, ..., x_n), where variables can be true (1) or false (0). Negative numbers indicate the use of the NOT operator. Variables combined with negative and positive signs are referred to as literals.
 
-The box on the left is the editor. The box on the right is the view of the instance in mathematical terms. The box on the bottom is the output, which contains the output from whatever experiment was ran. The benchmark button varies the number of literals and clauses, generating random instances, and measuring the time duration of each sample. Ten samples are taken per arrangement.
+Each line of input is a clause, combining all literals with a logical OR. All clauses are combined with a logical AND. The goal is to determine whether any variable arrangement can satisfy the formula (SAT) or not (UNSAT).
+
+- **Left box**: The editor for entering SAT instances.
+- **Right box**: Displays the instance in mathematical notation.
+- **Bottom box**: Shows the output from experiments run.
+- **Benchmark button**: Generates random instances with varying numbers of literals and clauses, running ten samples per configuration to measure performance.
 
 ## Presets
 The following instances are preloaded into the application.
 
-- Default [SAT] (Variables = 5, Clauses = 6)
-- Simple Test [SAT] (Variables = 3, Clauses = 2)
-- Functioning Sudoku [SAT] (Variables = 729, 8850)
-- Who Owns the Zebra Puzzle [SAT] (Variables = 155, Clauses = 1135)
-- Pigeon hole problem [UNSAT] (Variables = 42, Clauses = 133)
-- Parity problem [SAT] (Variables = 64, Clauses = 254)
-- Factorize 139*227=31553, solution in variables 1-8 and 9-16 (Variables = 83, Clauses = 1468)
-- Factorize 2711*2153=5836783, solution in variables 1-12 and 13-24 (Variables = 191, Clauses = 4679)
-- Artifical instances from generator [UNSAT] (Variables = 100, Clauses = 160)
-- Artifical instances from generator [SAT] (Variables = 50, Clauses = 80)
-- Nemesis formula [UNSAT] (Variables = 1317, Clauses = 3668)
-- Instance from generator 20 [UNSAT] (Variables = 60, Clauses = 160)
-- Instance from generator 21 [UNSAT] (Variables = 63, Clauses = 168)
-- Instance from generator 22 [UNSAT] (Variables = 66, Clauses = 176)
+- **Default [SAT]**: Variables = 5, Clauses = 6
+- **Simple Test [SAT]**: Variables = 3, Clauses = 2
+- **Sudoku Instance [SAT]**: Variables = 729, Clauses = 8850
+- **Who Owns the Zebra Puzzle [SAT]**: Variables = 155, Clauses = 1135
+- **Pigeon Hole Problem [UNSAT]**: Variables = 42, Clauses = 133
+- **Parity Problem [SAT]**: Variables = 64, Clauses = 254
+- **Factorize 139*227=31553 [SAT]**: Variables = 83, Clauses = 1468
+- **Factorize 2711*2153=5836783 [SAT]**: Variables = 191, Clauses = 4679
+- **Artificial Instances from Generator [UNSAT]**: Variables = 100, Clauses = 160
+- **Artificial Instances from Generator [SAT]**: Variables = 50, Clauses = 80
+- **Nemesis Formula [UNSAT]**: Variables = 1317, Clauses = 3668
+- **Instance from Generator 20 [UNSAT]**: Variables = 60, Clauses = 160
+- **Instance from Generator 21 [UNSAT]**: Variables = 63, Clauses = 168
+- **Instance from Generator 22 [UNSAT]**: Variables = 66, Clauses = 176
 
 ---
 

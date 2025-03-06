@@ -263,18 +263,19 @@
 				var html = '';
 				if (result[0] == true) {
 					html += 'The instance is satisfiable!';
+					html += '<hr>';
+					if (typeof result[1] == 'string') {
+						html += result[1];
+					} else {
+						var variables = result[1];
+						for (var i in variables) {
+							if (variables[i] == null) continue;
+							html += `x${i} = ${!variables[i].sign ? '1' : '0'}<br>`
+						}
+					}
 				} else {
 					html += 'The instance is unsatisfiable.';
-				}
-				html += '<hr>';
-				if (typeof result[1] == 'string') {
-					html += result[1];
-				} else {
-					var variables = result[1];
-					for (var i in variables) {
-						if (variables[i] == null) continue;
-						html += `x${i} = ${!variables[i].sign ? '1' : '0'}<br>`
-					}
+					html += '<hr>';
 				}
 				document.getElementById('outputDiv').innerHTML = html;
 			} else throw ('')

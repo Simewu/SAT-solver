@@ -207,7 +207,7 @@
 					var result, clauses = genClauses(numLiterals, numClauses);
 					var t1 = performance.now();
 					try {
-						result = satSolve(recursiveAbsMax(clauses), clauses);
+						result = satSolve(clauses);
 					} catch (e) { }
 					var t2 = performance.now();
 					avgTime += t2 - t1;
@@ -259,7 +259,7 @@
 		try {
 			setJSON();
 			if (json != null) {
-				result = satSolve(recursiveAbsMax(json), json);
+				result = satSolve(json);
 				var html = '';
 				if (result[0] == true) {
 					html += 'The instance is satisfiable!';
@@ -279,14 +279,16 @@
 				document.getElementById('outputDiv').innerHTML = html;
 			} else throw ('')
 		} catch (e) {
-			alert('An error still exists in the editor.\n' + e)
+			alert('An error still exists in the editor.\n' + e);
+			console.error(e);
 		}
 		document.getElementById('solveBtn').disabled = false;
 		document.getElementById('runBenchmarkBtn').disabled = false;
 	}
 
 	// Override satSolve to return solution variable states
-	function satSolve(size, clauses) {
+	function satSolve(clauses) {
+		var size = recursiveAbsMax(clauses);
 		var state = new State();
 		for (var i = 0; i < size; i++) {
 			state.vars.push(new Variable());
